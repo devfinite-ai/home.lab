@@ -1,19 +1,19 @@
 # Home Lab
 
-Home Lab is the public home for automation, infrastructure, and productivity projects from [devfinite-ai](https://github.com/devfinite-ai).
+Home Lab is the public workspace for practical automation, infrastructure, and
+productivity experiments from [devfinite-ai](https://github.com/devfinite-ai).
 
 ## Projects
 
-### Home Productivity
+| Project | What it explores | Status |
+| --- | --- | --- |
+| [Home Productivity](projects/home-productivity/README.md) | Guarded Windows automation from a physical MIDI controller | v1 design preview |
 
-A Windows automation and MIDI-controller project for turning physical controls into guarded desktop actions.
+## Publishing approach
 
-The public v1 release is being prepared. Source code, hardware mappings, and setup documentation will be published after the privacy and reproducibility review is complete.
+Projects are published in small, reviewable layers: useful design notes first,
+then sanitized examples, tests, and source code when each layer is reproducible
+without personal configuration.
 
-## Status
-
-- Platform: Windows
-- Release channel: v1 pre-release
-- Public source: coming soon
-
-This repository intentionally begins as documentation only. It contains no exported controller templates, local paths, credentials, network addresses, or personal configuration.
+This repository does not contain credentials, private network addresses, local
+machine paths, or exported personal controller templates.
